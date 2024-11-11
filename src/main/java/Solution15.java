@@ -28,7 +28,7 @@ import java.util.*;
 
 class Solution {
     public int compareVersion(String version1, String version2) {
-        // simon 怎么还有问题
+        // simon 服了
         String[] v1 = version1.split("\\.");
         String[] v2 = version2.split("\\.");
         int maxLength = Math.max(v1.length, v2.length);
